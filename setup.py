@@ -119,6 +119,7 @@ setup_args = dict(
         'docs': [
             'sphinx>=1.5',
             'recommonmark',
+            'sphinx-automodapi',
             'sphinx_rtd_theme',
             'nbsphinx>=0.2.13',
             'jupyter_sphinx',
