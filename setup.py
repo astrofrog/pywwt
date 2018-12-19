@@ -120,6 +120,7 @@ setup_args = dict(
             'sphinx>=1.5',
             'recommonmark',
             'sphinx-automodapi',
+            'numpydoc',
             'sphinx_rtd_theme',
             'nbsphinx>=0.2.13',
             'jupyter_sphinx',
