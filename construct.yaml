@@ -1,0 +1,19 @@
+name: pywwtconda
+version: stable
+
+install_in_dependency_order: True
+
+channels:
+ - http://conda.anaconda.org/wwt
+ - http://repo.continuum.io/pkgs/free
+
+specs:
+  - python 3.6*
+  - conda
+  - nomkl [not win]
+  - pywwt
+  - console_shortcut  [win]
+  - menuinst  [win]
+
+exclude:
+  - libgfortran  [linux]
